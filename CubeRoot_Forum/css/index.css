@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgreen;
+  padding: 3vh 2vw 0 2vw;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.sendPost {
+  height: 4vh;
+  width: 9vh;
+  border: .3vh solid black;
+  text-align: center;
+  line-height: 3.6vh;
+  font-size: 2vh;
+  margin-left: calc(100vw - 2vw * 2 - 9vh);
+  margin-bottom: 3vh;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  cursor: pointer;
+}
+
+.sendPost:hover {
+  background-color: black;
+  color: white;
+}
+
+.hotPosts {
+  height: 40vh;
+  width: 60vh;
+  margin: 0 auto;
+}
+
+.choosePictures {
+  height: 3vh;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.divChoosePictures {
+  height: 2vh;
+  width: 2vh;
+  margin-top: calc(40vh - (2vh + 2vh));
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+header {
+  height: 3vh;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2vh;
+  background-color: lightseagreen;
+}
+
+.insideHeaderBlank {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pageChoices {
+  height: 100%;
+  width: 30%;
+  bottom: 0;
+  font-size: 1em;
+  text-align: center;
+  line-height: 3vh;
+  cursor: pointer;
+}
+
+.page {
+  display: none;
+}
+
+.passages {
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2vh;
+  background-color: white;
+}
+
+.passage {
+  height: auto;
+  width: 100%;
+  padding: 1vh;
+  box-sizing: border-box;
+  border-top: .1em solid black;
+}
+
+.passage:nth-child(1) {
+  border: none;
+}
+
+.passageTitle {
+  font-size: 2vh;
+  cursor: pointer;
+}
+
+.passageWriter {
+  font-size: 1.5vh;
+}
+
+.passageInfos {
+  width: 100%;
+  font-size: 1vh;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgreen;
+  padding: 3vh 2vw 0 2vw;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.passageTitle {
+  font-size: 5vh;
+  text-align: center;
+}
+
+.passageWriter {
+  font-size: 2vh;
+  color: gray;
+  text-align: center;
+}
+
+.passageText {
+  margin-top: 2vh;
+  font-size: 2.5vh;
+  font-family: Helvetica;
+}
